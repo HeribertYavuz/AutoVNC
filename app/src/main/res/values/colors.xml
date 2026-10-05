@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary (Duolingo Owl Green) -->
+    <color name="owl_green">#58CC02</color>
+    <color name="owl_green_deep">#58A700</color>
+    <color name="owl_green_light">#89E219</color>
+    <color name="owl_green_pale">#DBF8C5</color>
+
+    <!-- Secondary Accents -->
+    <color name="streak_orange">#FF9600</color>
+    <color name="streak_orange_deep">#CC7A00</color>
+    <color name="gem_pink">#CE82FF</color>
+    <color name="eel_blue">#1CB0F6</color>
+    <color name="eel_blue_deep">#0F82B8</color>
+    <color name="cardinal_red">#FF4B4B</color>
+    <color name="cardinal_red_deep">#CC3B3B</color>
+    <color name="bee_yellow">#FFC800</color>
+
+    <!-- Neutral Surfaces & Borders -->
+    <color name="snow">#FFFFFF</color>
+    <color name="eel">#F7F7F7</color>
+    <color name="swan">#E5E5E5</color>
+    <color name="swan_dark">#D7D7D7</color>
+    <color name="wolf">#777777</color>
+    <color name="hare">#AFAFAF</color>
+    <color name="eel_black">#3C3C3C</color>
+
+    <!-- Aliases for existing references -->
+    <color name="primary">#58CC02</color>
+    <color name="primary_dark">#58A700</color>
+    <color name="primary_light">#DBF8C5</color>
+    <color name="accent">#FF9600</color>
+    <color name="background">#F7F7F7</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="text_primary">#3C3C3C</color>
+    <color name="text_secondary">#777777</color>
+    <color name="status_connected">#58CC02</color>
+    <color name="status_connecting">#FF9600</color>
+    <color name="status_disconnected">#FF4B4B</color>
+</resources>

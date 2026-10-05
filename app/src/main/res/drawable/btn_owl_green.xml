@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed state: Button moves down by 4dp into the shadow -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:top="4dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="14dp" />
+                    <solid android:color="@color/owl_green" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <!-- Default state: 4dp bottom shadow -->
+    <item>
+        <layer-list>
+            <item android:top="4dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="14dp" />
+                    <solid android:color="@color/owl_green_deep" />
+                </shape>
+            </item>
+            <item android:bottom="4dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="14dp" />
+                    <solid android:color="@color/owl_green" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

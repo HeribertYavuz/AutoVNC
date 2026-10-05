@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_duo_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvDialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-black"
+            android:text="VNC Sunucu Ayarları"
+            android:textColor="@color/eel_black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Sunucu Adı -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif-bold"
+            android:text="Sunucu Adı"
+            android:textColor="@color/wolf"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/input_duo"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Örn: Ev Bilgisayarı"
+            android:inputType="textCapWords"
+            android:paddingHorizontal="14dp"
+            android:textColor="@color/eel_black"
+            android:textSize="14sp" />
+
+        <!-- Host / IP Adresi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif-bold"
+            android:text="IP Adresi"
+            android:textColor="@color/wolf"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etHost"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/input_duo"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Örn: 192.168.1.100 veya 127.0.0.1"
+            android:inputType="textUri"
+            android:paddingHorizontal="14dp"
+            android:textColor="@color/eel_black"
+            android:textSize="14sp" />
+
+        <!-- Port & Parola yan yana veya alt alta -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif-bold"
+                    android:text="Port"
+                    android:textColor="@color/wolf"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/etPort"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="14dp"
+                    android:background="@drawable/input_duo"
+                    android:fontFamily="sans-serif-medium"
+                    android:inputType="number"
+                    android:paddingHorizontal="14dp"
+                    android:text="5900"
+                    android:textColor="@color/eel_black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1.6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif-bold"
+                    android:text="VNC Parolası (Opsiyonel)"
+                    android:textColor="@color/wolf"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="14dp"
+                    android:background="@drawable/input_duo"
+                    android:fontFamily="sans-serif-medium"
+                    android:hint="Boş bırakılabilir"
+                    android:inputType="textPassword"
+                    android:paddingHorizontal="14dp"
+                    android:textColor="@color/eel_black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- ⚡ FPS Ayarı -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif-bold"
+            android:text="⚡ FPS (Kare Hızı) Ayarı"
+            android:textColor="@color/eel_black"
+            android:textSize="13sp" />
+
+        <Spinner
+            android:id="@+id/spFps"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/input_duo"
+            android:paddingHorizontal="10dp" />
+
+        <!-- 🎨 Bitrate & Renk Kalitesi Ayarı -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif-bold"
+            android:text="🎨 Bitrate / Renk Kalitesi"
+            android:textColor="@color/eel_black"
+            android:textSize="13sp" />
+
+        <Spinner
+            android:id="@+id/spColorDepth"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/input_duo"
+            android:paddingHorizontal="10dp" />
+
+        <!-- 📐 Varsayılan Ekran Ölçeği -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif-bold"
+            android:text="📐 Araç Ekran Ölçeği"
+            android:textColor="@color/eel_black"
+            android:textSize="13sp" />
+
+        <Spinner
+            android:id="@+id/spScaleMode"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input_duo"
+            android:paddingHorizontal="10dp" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/btn_secondary_white"
+                android:fontFamily="sans-serif-black"
+                android:paddingHorizontal="20dp"
+                android:text="İptal"
+                android:textAllCaps="false"
+                android:textColor="@color/eel_black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:background="@drawable/btn_owl_green"
+                android:fontFamily="sans-serif-black"
+                android:paddingHorizontal="24dp"
+                android:text="Kaydet"
+                android:textAllCaps="false"
+                android:textColor="@color/snow"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

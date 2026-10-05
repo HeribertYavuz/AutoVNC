@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoVNC</string>
+    <string name="car_app_name">AutoVNC Remote</string>
+    <string name="add_server">Yeni Sunucu Ekle</string>
+    <string name="edit_server">Sunucuyu Düzenle</string>
+    <string name="server_name">Sunucu Adı (Örn: Ev Bilgisayarı)</string>
+    <string name="server_host">IP / Alan Adı (Örn: 192.168.1.50)</string>
+    <string name="server_port">Port (Varsayılan: 5900)</string>
+    <string name="server_password">Parola (İsteğe Bağlı)</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="delete">Sil</string>
+    <string name="connect">Bağlan</string>
+    <string name="disconnect">Bağlantıyı Kes</string>
+    <string name="status_connected">Bağlandı</string>
+    <string name="status_connecting">Bağlanıyor…</string>
+    <string name="status_disconnected">Bağlantı Yok</string>
+    <string name="android_auto_guide_title">Android Auto Kurulum Rehberi</string>
+    <string name="android_auto_guide_content">1. Telefonunuzun Ayarlar -> Android Auto ekranına gidin.\n2. En alttaki \'Sürüm\' (Version) kısmına 10 defa dokunup Geliştirici Modunu açın.\n3. Sağ üstteki 3 noktadan \'Geliştirici Ayarları\'na girin.\n4. \'Bilinmeyen Kaynaklar\' (Unknown sources) seçeneğini aktif edin.\n5. Aracınıza bağlandığınızda AutoVNC menüde belirecektir!</string>
+    <string name="empty_servers">Kayıtlı VNC sunucusu bulunamadı.\nYukarıdaki butona dokunarak ilk sunucunuzu ekleyin.</string>
+    <string name="scale_mode">Ölçeklendirme: %s</string>
+    <string name="send_key">Tuş Gönder</string>
+</resources>

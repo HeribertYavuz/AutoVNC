@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AutoVNC" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/owl_green</item>
+        <item name="colorPrimaryDark">@color/owl_green_deep</item>
+        <item name="colorAccent">@color/streak_orange</item>
+        <item name="android:windowBackground">@color/eel</item>
+        <item name="android:textColorPrimary">@color/eel_black</item>
+        <item name="android:textColorSecondary">@color/wolf</item>
+        <item name="colorSurface">@color/snow</item>
+    </style>
+</resources>
